@@ -1,0 +1,70 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.left-summary {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-left: 5%;
+    background-color: khaki;
+}
+
+.right-detail {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 5%;
+    background-color: white;
+}
+
+.photo {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.left-summary-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    background-color: grey;
+    font-size: 3rem;
+}
+
+#personal-title {
+    height: 200px;    
+}
+
+#name {
+    margin-top: 50px;
+    font-size: 5rem;
+}
+
+.time-action {
+    display: flex;
+    flex-direction: row;    
+}
+
+.time {
+    width: 30%;
+    display: flex;
+    flex-direction: column;    
+}
+
+.action {
+    width: 70%;
+    display: flex;
+    flex-direction: column;    
+}
